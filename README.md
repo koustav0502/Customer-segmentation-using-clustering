@@ -5,7 +5,7 @@ Customer segmentation using KMeans Clustering
 # Mall Target Customer Segmentation
 
 Technology, libraries and tools used in this project:  
-Python, pandas, matplotlib, seaborn, KMeans Clustering
+__Python, pandas, matplotlib, seaborn, KMeans Clustering__
 
 ## 1. Introduction
 
@@ -68,9 +68,9 @@ A systematic approach has been adopted to cater to the requirements of the stake
 Based on the notebook’s comprehensive analysis, several important insights were obtained:
 
 1. **Distinct Customer Segments Identified:**  
-   The KMeans algorithm successfully segregated the customer base into clearly distinct groups, with each cluster showing unique patterns in age, income, and shopping behavior. In the analysis it was identified that cluster 1 is the target cluster for the marketing team. This cluster highlights the customers with high annual income and high spending points in the mall. This is the ideal target cluster for the following reasons: <br>
-   (1) High spending points in the mall implies that this segment of customers regularly spend more or want to spend more in the mall. The high annual income also highlights that the customers of this segment have the means to spend in the mall.<br>
-   (2) It was observed that the the average age in this cluster is ~33yrs (32.69yrs) and ~54% (53.84%) of the customers in this segment are female. Hence this segment can be labelled as high income young population. This is an ideal segment because they often have disposable income, are early adopters of trends, and are influential within their social circles, potentially driving broader market adoption.
+   The KMeans algorithm successfully segregated the customer base into clearly distinct groups, with each cluster showing unique patterns in age, income, and shopping behavior. In the analysis it was identified that __cluster 1 is the target cluster__ for the marketing team. This cluster highlights the customers with __high annual income and high spending points in the mall__. This is the __ideal target cluster for the following reasons__: <br>
+   (1) High spending points in the mall implies that __this segment of customers regularly spend more or want to spend more in the mall__. The high annual income also highlights that the __customers of this segment have the means to spend in the mall__.<br><br>
+   (2) It was observed that the the __average age in this cluster is ~33yrs (32.69yrs)__ and __~54% (53.84%) of the customers in this segment are female__. Hence this segment can be labelled as __high income young population__. This is an __ideal segment because they often have disposable income__, are __early adopters of trends__, and are __influential within their social circles__, potentially driving broader market adoption.
    ![image](https://github.com/user-attachments/assets/bb03cec0-69aa-4ecb-9800-2b11fd394f6c)
 
 ![image](https://github.com/user-attachments/assets/58b6c01d-374a-468e-8a83-6a03cf32d450)
@@ -79,17 +79,17 @@ Based on the notebook’s comprehensive analysis, several important insights wer
 
 
 3. **Optimal Cluster Count:**  
-   The analysis determined the ideal number of clusters, balancing the need for both interpretability and statistical robustness. The elbow method was used to find the appropriate number of clusters for KMeans Clustering.
+   The analysis determined the ideal number of clusters, balancing the need for both interpretability and statistical robustness. The __elbow method__ was used __to find the appropriate number of clusters__ for KMeans Clustering.
 
 4. **Profile of Clusters:**  
    - **High-Income, High-Shopping Score Segment:**  
-     Customers in this segment (segment 1 in the scatterplot attached) are characterized by high disposable income and a strong propensity to shop frequently. This group is ideal for premium product offerings and exclusive promotions.
+     Customers in this segment (__segment 1__ in the scatterplot attached) are characterized by high disposable income and a strong propensity to shop frequently. This group is ideal for premium product offerings and exclusive promotions.
    - **Younger, Emerging Shoppers:**  
-     This segment (segment 2 in the scatterplot attached) consists of younger customers with moderate income levels and rising shopping scores. They may be more receptive to trends, social media marketing, and budget-friendly campaigns.
+     This segment (__segment 2__ in the scatterplot attached) consists of younger customers with moderate income levels and rising shopping scores. They may be more receptive to trends, social media marketing, and budget-friendly campaigns.
    - **Mid-Income, Consistent Shoppers:**  
-     Representing stable shopping behavior (segment 0 in the scatterplot attached), this group can benefit from loyalty programs and consistent engagement strategies.
+     Representing stable shopping behavior (__segment 0__ in the scatterplot attached), this group can benefit from loyalty programs and consistent engagement strategies.
    - **Additional Niche Segments:**  
-     Depending on the dataset, other nuanced clusters are present, each offering a unique combination of demographic and behavioral traits that could be leveraged for more targeted marketing initiatives. <br><br>An interesting segment to note is cluster 4. This segment comprises of customers who have high annual income and low spending points in the mall, the average age of this segment being 42yrs. The low spending characteristics of this segment maybe an indicator that the customers of this segment are purchacing only during sales or buying only big ticket items (for example, TVs, Playstations etc) once in a while from the mall. 
+     Depending on the dataset, other nuanced clusters are present, each offering a unique combination of demographic and behavioral traits that could be leveraged for more targeted marketing initiatives. <br><br>An __interesting segment to note is cluster 4__. This segment comprises of customers who have __high annual income and low spending points in the mall__, the __average age__ of this segment being __42yrs__. The __low spending characteristics__ of this segment maybe __an indicator that the customers of this segment are purchacing only during sales__ or __buying only big ticket items (for example, TVs, Playstations etc)__ once in a while from the mall. 
 
 5. **Actionable Marketing Insights:**  
    The segmentation provides a roadmap for targeted marketing. Based on the target segment that was determined in the analysis, the marketing team can:
